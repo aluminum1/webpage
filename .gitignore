@@ -1,0 +1,12 @@
+# Ignore .DS_Store files (made on Mac)
+.DS_Store
+
+# Ignore the Jekyll build output
+_site/
+
+
+# Ignore generic build artifacts
+*.log
+.sass-cache/
+.jekyll-cache/
+.bundle/
