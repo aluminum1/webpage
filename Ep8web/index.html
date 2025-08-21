@@ -9,7 +9,7 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      UnityLoader.Error.handler = function(){}
+      UnityLoader.compatibilityCheck = function (e, t) {t();}; // <== add this line
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Ep8web.json", {onProgress: UnityProgress});
     </script>
   </head>
